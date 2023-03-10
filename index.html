@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form project</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+        <div class="page-wrapper"> 
+            <h1 class="text-white mb-20">Apply for the position</h1> 
+            <p class="text-gold">Fill the form below with your information</p>
+            <form class="cv-form" action="/submit">
+            <label class="text-gold" for="fname"> Name </label>
+            <br>
+            <input class="mt-6 mb-14 w-50" type="text" placeholder="Enter your name" value="" name="fname" id="fname">
+            <br>
+            <label class="text-gold" for="lastname" >Lastname</label>
+            <br>
+            <input class="mt-6 mb-14 w-50" type="text" placeholder="Enter your lastname" value="" name="lastname" id="lastname">
+            <br>
+            <label class="text-gold" for="phone">Phone</label>
+            <br>
+            <input class="mt-6 mb-14 w-50" type="number" placeholder="Enter number" name="phone" id="phone">
+            <br>
+            <label class="text-gold" for="email" >Email</label>
+            <br>
+            <input class="mt-6 mb-14 w-50" type="Email" placeholder="Enter your email" name="email" id="email">
+            <br>
+            <label class="text-gold" for="file">Upload your CV</label>
+            <br>
+            <input class="mt-6 mb-14 w-50" type="file" name="file" id="file">
+            <br>
+            <label class="text-gold" for="subject">Subject</label>
+            <br>
+            <input class="mt-6 mb-14 w-50" type="text" value="" placeholder="Enter subject" name="subject" id="subject">
+            <br>
+            <label class="text-gold" for="message">Add mesage</label>
+            <br>
+            <textarea class="mt-6 mb-14 w-50" id="message" placeholder="Enter message" rows="7" ></textarea>
+            <br>
+            <input class="mt-6 mb-14" type="checkbox" id="Notify"> <label class="text-gold" for="Notify">Notify me by email</label>
+            <br>
+            <button type="submit" class="btn btn-primary">Apply</button>
+        </div>
+    </form>
+</body>
+</html>
